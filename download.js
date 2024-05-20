@@ -10,7 +10,7 @@ async function download() {
     }
 
     await storage.bucket(bucketName).file(fileName).download(options);
-    console.log('Objek berhasil didownload')
+    console.log('Objek berhasil diunduh')
 }
 
 // Run the function using the promise scheme
